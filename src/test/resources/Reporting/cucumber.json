@@ -1,0 +1,289 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verifying adactin login functionalities with types of rooms",
+        "description": "",
+        "id": "verifying-the-adactin-functionalities-with-types-of-rooms;verifying-adactin-login-functionalities-with-types-of-rooms",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5204600546,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the adactin page",
+            "match": {
+              "location": "StepLoginH.user_is_on_the_adactin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7213714144,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should enter",
+            "match": {
+              "location": "StepLoginH.user_should_enter(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "priyadharshiniM",
+                  "priyasuji"
+                ]
+              },
+              {
+                "cells": [
+                  "priyadharshiniM",
+                  "priyasuji"
+                ]
+              },
+              {
+                "cells": [
+                  "priyadharshiniM",
+                  "priyasuji"
+                ]
+              },
+              {
+                "cells": [
+                  "priyadharshiniM",
+                  "priyasuji"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5142143723,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should click the login button",
+            "match": {
+              "location": "StepLoginH.user_should_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3654059778,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should select the location as",
+            "match": {
+              "location": "StepLoginH.user_should_select_the_location_as(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "location",
+                  "hotels",
+                  "roomType",
+                  "numberOfRooms",
+                  "adultsPerRoom",
+                  "childrenPerRoom"
+                ]
+              },
+              {
+                "cells": [
+                  "Sydney",
+                  "Hotel Creek",
+                  "Deluxe",
+                  "1 - One",
+                  "1 - One",
+                  "1 - One"
+                ]
+              },
+              {
+                "cells": [
+                  "Sydney",
+                  "Hotel Creek",
+                  "Deluxe",
+                  "1 - One",
+                  "1 - One",
+                  "1 - One"
+                ]
+              },
+              {
+                "cells": [
+                  "Sydney",
+                  "Hotel Creek",
+                  "Deluxe",
+                  "1 - One",
+                  "1 - One",
+                  "1 - One"
+                ]
+              },
+              {
+                "cells": [
+                  "Sydney",
+                  "Hotel Creek",
+                  "Deluxe",
+                  "1 - One",
+                  "1 - One",
+                  "1 - One"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4139132156,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User should click the search button",
+            "match": {
+              "location": "StepLoginH.user_should_click_the_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3086075976,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User should click  the radio button",
+            "match": {
+              "location": "StepLoginH.user_should_click_the_radio_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4171111535,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User should click the continue button",
+            "match": {
+              "location": "StepLoginH.user_should_click_the_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3712077507,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User should enter the values as",
+            "match": {
+              "location": "StepLoginH.user_should_enter_the_values_as(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "FirstName",
+                  "LastName",
+                  "Address",
+                  "CardNo",
+                  "CardType",
+                  "Month",
+                  "Year",
+                  "Cvv"
+                ]
+              },
+              {
+                "cells": [
+                  "priya",
+                  "dhasrhini",
+                  "chennai",
+                  "7485000236510000",
+                  "VISA",
+                  "March",
+                  "2022",
+                  "120"
+                ]
+              },
+              {
+                "cells": [
+                  "priya",
+                  "dhasrhini",
+                  "chennai",
+                  "7485125631977451",
+                  "VISA",
+                  "March",
+                  "2022",
+                  "120"
+                ]
+              },
+              {
+                "cells": [
+                  "priya",
+                  "dhasrhini",
+                  "chennai",
+                  "7485125631977451",
+                  "VISA",
+                  "March",
+                  "2022",
+                  "120"
+                ]
+              },
+              {
+                "cells": [
+                  "priya",
+                  "dhasrhini",
+                  "chennai",
+                  "7485125631977451",
+                  "VISA",
+                  "March",
+                  "2022",
+                  "120"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3069082912,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user should click Book Now",
+            "match": {
+              "location": "StepLoginH.user_should_click_Book_Now()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7852364577,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User should print the order id",
+            "match": {
+              "location": "StepLoginH.user_should_print_the_order_id()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verifying the adactin functionalities with types of rooms",
+    "description": "",
+    "id": "verifying-the-adactin-functionalities-with-types-of-rooms",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/TypesOfRooms.feature",
+    "tags": []
+  }
+]

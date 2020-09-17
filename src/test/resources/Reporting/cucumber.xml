@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="47.24773">
+<testcase classname="Verifying the adactin functionalities with types of rooms" name="Verifying adactin login functionalities with types of rooms" time="47.24773">
+<system-out><![CDATA[Given User is on the adactin page...........................................passed
+When User should enter......................................................passed
+And User should click the login button......................................passed
+Then user should select the location as.....................................passed
+And User should click the search button.....................................passed
+Then User should click  the radio button....................................passed
+And User should click the continue button...................................passed
+Then User should enter the values as........................................passed
+And user should click Book Now..............................................passed
+Then User should print the order id.........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
